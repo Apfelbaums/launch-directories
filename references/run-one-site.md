@@ -89,5 +89,6 @@ blocker by then, mark it "needs a human" with the reason and move on.
 - **Email confirmation:** who the email is from, what to click
 - **Moderation:** typical wait
 - **Pitfalls:** what broke and how it was worked around
+- **Human step:** what a person had to do (sign-in, captcha, newsletter, upload, submit click), or "none"
 - **Last checked:** status and date
 ```

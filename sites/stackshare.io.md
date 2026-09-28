@@ -10,4 +10,5 @@
 - **Email confirmation:** not required.
 - **Moderation:** never reached — blocked at Submit (see Pitfalls).
 - **Pitfalls:** Submit consistently returns "Error: Bot access denied" — confirmed across a synthetic click, a real ref-based click, and repeated on a second, completely different browser session that was already logged into the same Google account. This is server-side automation/fingerprint detection, not a solvable captcha, and bypassing it is out of scope. A human submitting from a normal, non-automated browser session does get through cleanly.
+- **Human step:** a person pressed Submit in a normal browser (bot protection blocks automated submits).
 - **Last checked:** 2026-09-28 — Pending review; automated submit is blocked by bot protection, a human click works. The owner submitted manually from a normal browser and it went through.

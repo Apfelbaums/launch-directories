@@ -5,7 +5,7 @@ directories, SaaS directories, and GitHub awesome-lists — from one
 canonical product card, with per-site tracking and backlink-badge
 verification.
 
-78 directories tried in September 2026. 40 submitted: 9 listed, 28 pending review, 3 scheduled launches. The rest: 9 need a human (bot protection, passkey, owner-only action), 10 paid only, 18 dead, sales-only or not a fit, 1 not pursued. Full table: [sites/INDEX.md](sites/INDEX.md).
+78 directories tried in September 2026. 40 submitted: 9 listed, 28 pending review, 3 scheduled launches. The rest: 9 need a human (bot protection, passkey, owner-only action), 10 paid only, 18 dead, sales-only or not a fit, 1 not pursued. Of the 40 submitted, 8 needed one human step (sign-in, captcha, newsletter, gallery upload, submit click) — see the "Human step" line in each site file. Full table: [sites/INDEX.md](sites/INDEX.md).
 
 ## Install
 

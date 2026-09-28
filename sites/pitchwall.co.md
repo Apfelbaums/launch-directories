@@ -10,4 +10,5 @@
 - **Email confirmation:** none, OAuth-based.
 - **Moderation:** "Submit for Review" is blocked until the Product Images gallery has at least one image — the logo doesn't count for this requirement.
 - **Pitfalls:** the tags combobox is a Reka UI component whose element refs go stale after every click/fill — re-snapshot before each interaction with it. FilePond (the drag-drop image widget) does not accept a programmatic `.files` assignment or a synthetic `drop` DragEvent — both were tried and failed; it needs a real drag-and-drop from a human. Everything else (text fields, logo, tags) can be automated and survives a page reload once saved.
+- **Human step:** a person uploaded the gallery images by hand (the FilePond widget rejects programmatic uploads).
 - **Last checked:** 2026-09-28 — Pending review: submitted; the site quotes 30+ days for review.

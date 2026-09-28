@@ -2,7 +2,7 @@
 
 78 launch platforms, AI-tool directories, SaaS directories and GitHub awesome-lists, each run by hand and agent in September 2026. Details and pitfalls are in each site file.
 
-Results as of 2026-09-28: 40 submitted: 9 listed, 28 pending review, 3 scheduled launches. The rest: 9 need a human (bot protection, passkey, owner-only action), 10 paid only, 18 dead, sales-only or not a fit, 1 not pursued.
+Results as of 2026-09-28: 40 submitted: 9 listed, 28 pending review, 3 scheduled launches. The rest: 9 need a human (bot protection, passkey, owner-only action), 10 paid only, 18 dead, sales-only or not a fit, 1 not pursued. Of the 40 submitted, 8 needed one human step (sign-in, captcha, newsletter, gallery upload, submit click) — see the "Human step" line in each site file.
 
 | Site | Price | Login | Captcha | Link | Last result |
 |---|---|---|---|---|---|
@@ -14,9 +14,9 @@ Results as of 2026-09-28: 40 submitted: 9 listed, 28 pending review, 3 scheduled
 | [aitoolzdir.com](aitoolzdir.com.md) | Paid $25 / Free queue | none | ? | ? | Pending review |
 | [aiwith.me](aiwith.me.md) | Paid $19.9 | none | no | ? | Paid only |
 | [aixploria.com](aixploria.com.md) | Paid $99+ | ? | ? | ? | Paid only |
-| [altern.ai](altern.ai.md) | Free (conditional) / Paid $29 | Google/GitHub | no | ? | Scheduled launch |
+| [altern.ai](altern.ai.md) | Free (conditional) / Paid $29 | Google/GitHub | no | ? | Scheduled launch (human: newsletter + submit) |
 | [alternative.me](alternative.me.md) | Free | email/password | no | ? | Pending review |
-| [alternativeto.net](alternativeto.net.md) | Free | email/password | yes (reset only) | ? | Listed |
+| [alternativeto.net](alternativeto.net.md) | Free | email/password | yes (reset only) | ? | Listed (human: captcha) |
 | [betalist.com](betalist.com.md) | Paid $39+ | email/password | no | ? | Paid only |
 | [buildvoyage.com](buildvoyage.com.md) | Free | none | no | ? | Pending review |
 | [crozdesk.com](crozdesk.com.md) | Sales-only | none | bot-protection | ? | Needs a human |
@@ -44,9 +44,9 @@ Results as of 2026-09-28: 40 submitted: 9 listed, 28 pending review, 3 scheduled
 | [goodfirms.co](goodfirms.co.md) | Free | email/password | no | ? | Pending review |
 | [indiehackers.com](indiehackers.com.md) | Free | Google | no | ? | Listed |
 | [insidr.ai](insidr.ai.md) | Free | none | no | ? | Pending review |
-| [kickproduct.com](kickproduct.com.md) | Free | Google | no | ? | Listed |
+| [kickproduct.com](kickproduct.com.md) | Free | Google | no | ? | Listed (human: login) |
 | [launchingnext.com](launchingnext.com.md) | ? | none | bot-protection | ? | Needs a human |
-| [launchvault.dev](launchvault.dev.md) | Free queue (badge-gated) / Paid $9.99+ | Google OAuth | no | dofollow | Scheduled launch |
+| [launchvault.dev](launchvault.dev.md) | Free queue (badge-gated) / Paid $9.99+ | Google OAuth | no | dofollow | Scheduled launch (human: login) |
 | [listmysaas.com](listmysaas.com.md) | n/a | none | ? | ? | Not a fit: not a directory |
 | [listyourtool.com](listyourtool.com.md) | Paid $5 | none | no | ? | Needs a human: broken tag checkboxes |
 | [magicbox.tools](magicbox.tools.md) | Paid $15.9+ | none | no | ? | Paid only |
@@ -59,17 +59,17 @@ Results as of 2026-09-28: 40 submitted: 9 listed, 28 pending review, 3 scheduled
 | [openhunts.com](openhunts.com.md) | Free (badge-gated) / Paid $9.9+ | Google OAuth | no | dofollow (conditional) | Needs a human: sign-in blocked |
 | [peerlist.io](peerlist.io.md) | Free | Google/GitHub/email OAuth | no (KYC gate) | ? | Not a fit: requires government-ID verification |
 | [peerpush.net](peerpush.net.md) | Free | OAuth | no | ? | Pending review |
-| [pitchwall.co](pitchwall.co.md) | Free (30d queue) / Paid $49-99 | Google/GitHub/Microsoft/Discord OAuth | no | dofollow | Pending review |
+| [pitchwall.co](pitchwall.co.md) | Free (30d queue) / Paid $49-99 | Google/GitHub/Microsoft/Discord OAuth | no | dofollow | Pending review (human: gallery upload) |
 | [provenexpert.com](provenexpert.com.md) | Free | email | ? | ? | Not a fit: review platform, not directory |
 | [saascity.app](saascity.app.md) | ? | ? | ? | ? | Site broken |
-| [saashub.com](saashub.com.md) | Free / Paid $75 | email/password | yes (hCaptcha, signup only) | ? | Pending review |
+| [saashub.com](saashub.com.md) | Free / Paid $75 | email/password | yes (hCaptcha, signup only) | ? | Pending review (human: captcha) |
 | [saaspo.com](saaspo.com.md) | Free | none | no | ? | Pending review |
 | [saasworthy.com](saasworthy.com.md) | Sales-only | ? | ? | ? | Sales-only |
 | [sideprojectors.com](sideprojectors.com.md) | ? | email/password | no | ? | Needs a human: confirmation email never arrives |
 | [slant.co](slant.co.md) | ? | ? | ? | ? | Site broken |
 | [softwaresuggest.com](softwaresuggest.com.md) | Free (sales-gated) | ? | ? | ? | Sales-only |
-| [stackshare.io](stackshare.io.md) | Free | Google OAuth | bot-protection | ? | Pending review (human submit works) |
-| [startupbase.io](startupbase.io.md) | Free (upvote-gated) / Paid $39-99 | Google OAuth | no | ? | Pending review |
+| [stackshare.io](stackshare.io.md) | Free | Google OAuth | bot-protection | ? | Pending review (human submit works) (human: submit click) |
+| [startupbase.io](startupbase.io.md) | Free (upvote-gated) / Paid $39-99 | Google OAuth | no | ? | Pending review (human: login) |
 | [startupranking.com](startupranking.com.md) | Free | Google/Facebook/LinkedIn/X OAuth | no | ? | Listed |
 | [superlaunch.dev](superlaunch.dev.md) | ? | ? | ? | ? | Site broken |
 | [thataicollection.com](thataicollection.com.md) | Paid $19+ | ? | ? | ? | Paid only |

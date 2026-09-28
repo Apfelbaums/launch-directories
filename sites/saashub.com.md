@@ -10,4 +10,5 @@
 - **Email confirmation:** not required to complete the flow.
 - **Moderation:** the product page goes live and gets indexed immediately after submission, marked "Pending approval" — visible to the public right away, actual approval/rating is a separate flag that lands later.
 - **Pitfalls:** the "Proceed with selection" confirm buttons on the competitor/category steps can visually shift after checkboxes are toggled, so clicking a stale element ref misses — more reliable to select the button by its form/value attribute directly (e.g. via a JS `querySelector` on `input[value="Proceed with selection"]`) rather than a cached ref. There are unrelated decoy Cancel/Confirm buttons from a different modal on the same page — match by the surrounding form, not by first text match. Re-snapshot before each upload click since prior checkbox clicks invalidate refs.
+- **Human step:** a person solved the captcha.
 - **Last checked:** 2026-09-27 — Pending review; product page live and indexed with logo, one-liner, categories, competitors and screenshot, awaiting approval.

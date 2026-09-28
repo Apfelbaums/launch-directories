@@ -10,4 +10,5 @@
 - **Email confirmation:** only for the password reset, not for the submission itself
 - **Moderation:** the listing page goes live immediately after submit (title reflects the submitted tagline); any further moderation, if it exists, happens after publication
 - **Pitfalls:** the "Forgot password?" link inside the login modal is a plain anchor to a different route — a synthetic click leaves the modal visually open without navigating, so grab the href directly and open it in a new tab. After logging back in, the password field sometimes has no accessible reference in a page snapshot even though it exists in the DOM — fill it by CSS selector as a fallback. An ad modal can appear after login and needs closing before continuing. The listing needs at least one "alternative" added via the built-in search, or it shows as having none and is nearly unfindable in search.
+- **Human step:** a person solved the captcha.
 - **Last checked:** 2026-09-27 — Listed (live listing page, with icon, two screenshots, and one alternative product added)

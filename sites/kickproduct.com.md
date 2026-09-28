@@ -10,4 +10,5 @@
 - **Email confirmation:** unknown
 - **Moderation:** none — published immediately as "Active," no review step
 - **Pitfalls:** after publishing, the listing shows a "Verify your listing" prompt requiring a badge on your own site to keep the listing active — this applies after publication, doesn't block the initial submission, and is a site-content decision outside submission scope. The account's author display name can default to something you didn't intend — check profile settings, which also has a separate required Username field that isn't obvious at signup. A later attempt to verify the badge was blocked by the same browser extension/passkey overlay problem seen elsewhere during Google sign-in — and structurally the badge can't be verified yet regardless, since "Verify" only activates once the badge is actually live on the product's own site. The listing itself remains live and published throughout.
-- **Last checked:** 2026-09-28 — Listed (published, "Active" status; badge verification pending a site change plus a login blocker)
+- **Human step:** a person signed in to the account; the agent did the rest.
+- **Last checked:** 2026-09-28 — Listed (published, "Active" status; badge installed and verified).

@@ -10,4 +10,5 @@
 - **Email confirmation:** not required — login is OAuth-only
 - **Moderation:** not reached — blocked at the plan-selection step (badge/subscription requirements)
 - **Pitfalls:** the form renders all 5 steps into the DOM at once instead of per-step, so a full-page field read mixes fields from every step, including hidden badge/follow verification checkboxes — expected, not a bug. Checkboxes/radios are controlled components: click the matching `<label>` text, not the underlying input, which doesn't always register. No exact "video editing" category exists. The free plan's three gating conditions (badge, social follow, newsletter) are not disclosed until the final review step.
+- **Human step:** the site requires subscribing to its newsletter before a free submission — a person subscribed and pressed submit.
 - **Last checked:** 2026-09-28 — Scheduled launch: submitted free, featured in launch week W42 (Oct 12–18, 2026), pending review.

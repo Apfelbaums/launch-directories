@@ -10,4 +10,5 @@
 - **Email confirmation:** unknown.
 - **Moderation:** Free plan requires a dofollow backlink badge installed on your own site BEFORE you can pick a launch date. There is a third option: "Save Project" stores the card as a draft with status "Needs backlink" without a link or date yet.
 - **Pitfalls:** the site's own badge asset filename has a typo (`launch-valut-badge.svg` instead of `vault`) — reproduce the badge code exactly as given, don't "fix" the typo. Badge code: `<a href="https://www.launchvault.dev" target="_blank" title="Feature On Launch Vault"><img src="https://www.launchvault.dev/images/badges/launch-valut-badge.svg" alt="Feature On Launch Vault" style="width: 195px; height: auto;" /></a>`. Installing the badge is a product/site decision, not something to do unilaterally.
+- **Human step:** a person signed in to the account; the agent scheduled the launch and verified the badge.
 - **Last checked:** 2026-09-28 — Scheduled launch: free launch booked for 2027-03-06; badge installed and verified.
