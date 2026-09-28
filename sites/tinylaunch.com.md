@@ -1,0 +1,12 @@
+# tinylaunch.com
+
+- **Submit URL:** https://www.tinylaunch.com/dashboard/startups → "New Startup" (no direct `/submit`).
+- **Login:** Google, GitHub or X OAuth only. Google login itself completes without errors, but the account-chooser and consent screens don't respond to a synthetic `.click()` call — this looks like the same synthetic-click protection seen on other sites with FedCM/One Tap flows. Workaround: take a snapshot, find the element ref, click by ref rather than by JS evaluate.
+- **Captcha / bot protection:** none.
+- **Price:** "Standard Launch" is free, but a dofollow link is only guaranteed for the top-3 spot of the day — otherwise it's exposure only.
+- **Form fields:** first login requires a one-time profile form (`/dashboard/profile`): First Name, Last Name, Handle (5-20 chars, required to save — omitting it fails silently with a text error, no redirect), X Handle (optional). The "New Startup" form itself: Name (30-char limit), Tagline (60-char limit — note this is tighter than a typical 61-char one-liner, trim the trailing period if needed), Logo (square file upload), URL, Description (rich-text field with a hidden mirrored plain-text input), Category (a select — check for an exact match before picking "closest", this site had one), and a required terms/upvote-rules checkbox.
+- **Logo & limits:** square icon, no hard size limit hit in testing.
+- **Email confirmation:** not required, OAuth-based.
+- **Moderation:** a draft ("Startup created successfully!") saves instantly; launch date is a separate step.
+- **Pitfalls:** the launch-date picker lists Mondays with per-day status "Free full" or "Free available" — free slots fill up weeks in advance, so check several weeks out. The date picker also offers paid upsells (e.g. a Directory Submissions bundle, an AI Visibility Audit) each with a "None — $0" radio that must be explicitly selected, or the form treats the upsell as included. After scheduling a free launch, an aggressive upsell interstitial appears — look for a "Continue with free launch" (or similar) option to decline it. When replacing a logo on an existing listing, remove the old one via its dropzone's remove control first; the empty-dropzone file input's index can shift after removal, so re-check it before uploading.
+- **Last checked:** 2026-09-27 — Scheduled launch; free launch confirmed for a date roughly a month out (all nearer Mondays were fully booked for free slots at submission time). Listing status "Waiting for approval."
