@@ -9,4 +9,4 @@
 - **Email confirmation:** not required.
 - **Moderation:** the Launch Checklist can reach 100% (name/tagline/tags/description/logo/screenshot/price/location/makers all green) with the listing saved as a Draft.
 - **Pitfalls:** the free launch path has a gate before scheduling — "One quick step before you launch" requires giving 3 upvotes and 1 comment/review on other people's launches first, or paying $39 (or $99 for a Boost plan) for an immediate/guaranteed launch. Voting/reviewing other products on the owner's behalf is out of scope for an automated submission pass.
-- **Last checked:** 2026-09-27 — Needs a human: draft is 100% complete and ready; publishing needs either 3 upvotes + 1 comment on other launches (free, ~4-5 week queue) or a $39 payment, both requiring an owner decision.
+- **Last checked:** 2026-09-28 — Pending review: submitted free; badge installed and verified, which moves the listing to the priority queue (~4–5 weeks).

@@ -2,7 +2,7 @@
 
 78 launch platforms, AI-tool directories, SaaS directories and GitHub awesome-lists, each run by hand and agent in September 2026. Details and pitfalls are in each site file.
 
-Results as of 2026-09-28: 9 listed, 26 pending review, 1 scheduled launch, 13 need a human (bot protection, passkey, owner-only action), 10 paid only, 2 sales-only, 4 site broken, 12 not a fit, 1 not pursued.
+Results as of 2026-09-28: 40 submitted: 9 listed, 28 pending review, 3 scheduled launches. The rest: 9 need a human (bot protection, passkey, owner-only action), 10 paid only, 18 dead, sales-only or not a fit, 1 not pursued.
 
 | Site | Price | Login | Captcha | Link | Last result |
 |---|---|---|---|---|---|
@@ -14,7 +14,7 @@ Results as of 2026-09-28: 9 listed, 26 pending review, 1 scheduled launch, 13 ne
 | [aitoolzdir.com](aitoolzdir.com.md) | Paid $25 / Free queue | none | ? | ? | Pending review |
 | [aiwith.me](aiwith.me.md) | Paid $19.9 | none | no | ? | Paid only |
 | [aixploria.com](aixploria.com.md) | Paid $99+ | ? | ? | ? | Paid only |
-| [altern.ai](altern.ai.md) | Free (conditional) / Paid $29 | Google/GitHub | no | ? | Needs a human |
+| [altern.ai](altern.ai.md) | Free (conditional) / Paid $29 | Google/GitHub | no | ? | Scheduled launch |
 | [alternative.me](alternative.me.md) | Free | email/password | no | ? | Pending review |
 | [alternativeto.net](alternativeto.net.md) | Free | email/password | yes (reset only) | ? | Listed |
 | [betalist.com](betalist.com.md) | Paid $39+ | email/password | no | ? | Paid only |
@@ -46,7 +46,7 @@ Results as of 2026-09-28: 9 listed, 26 pending review, 1 scheduled launch, 13 ne
 | [insidr.ai](insidr.ai.md) | Free | none | no | ? | Pending review |
 | [kickproduct.com](kickproduct.com.md) | Free | Google | no | ? | Listed |
 | [launchingnext.com](launchingnext.com.md) | ? | none | bot-protection | ? | Needs a human |
-| [launchvault.dev](launchvault.dev.md) | Free queue (badge-gated) / Paid $9.99+ | Google OAuth | no | dofollow | Needs a human: badge install |
+| [launchvault.dev](launchvault.dev.md) | Free queue (badge-gated) / Paid $9.99+ | Google OAuth | no | dofollow | Scheduled launch |
 | [listmysaas.com](listmysaas.com.md) | n/a | none | ? | ? | Not a fit: not a directory |
 | [listyourtool.com](listyourtool.com.md) | Paid $5 | none | no | ? | Needs a human: broken tag checkboxes |
 | [magicbox.tools](magicbox.tools.md) | Paid $15.9+ | none | no | ? | Paid only |
@@ -59,7 +59,7 @@ Results as of 2026-09-28: 9 listed, 26 pending review, 1 scheduled launch, 13 ne
 | [openhunts.com](openhunts.com.md) | Free (badge-gated) / Paid $9.9+ | Google OAuth | no | dofollow (conditional) | Needs a human: sign-in blocked |
 | [peerlist.io](peerlist.io.md) | Free | Google/GitHub/email OAuth | no (KYC gate) | ? | Not a fit: requires government-ID verification |
 | [peerpush.net](peerpush.net.md) | Free | OAuth | no | ? | Pending review |
-| [pitchwall.co](pitchwall.co.md) | Free (30d queue) / Paid $49-99 | Google/GitHub/Microsoft/Discord OAuth | no | dofollow | Needs a human: gallery upload |
+| [pitchwall.co](pitchwall.co.md) | Free (30d queue) / Paid $49-99 | Google/GitHub/Microsoft/Discord OAuth | no | dofollow | Pending review |
 | [provenexpert.com](provenexpert.com.md) | Free | email | ? | ? | Not a fit: review platform, not directory |
 | [saascity.app](saascity.app.md) | ? | ? | ? | ? | Site broken |
 | [saashub.com](saashub.com.md) | Free / Paid $75 | email/password | yes (hCaptcha, signup only) | ? | Pending review |
@@ -69,7 +69,7 @@ Results as of 2026-09-28: 9 listed, 26 pending review, 1 scheduled launch, 13 ne
 | [slant.co](slant.co.md) | ? | ? | ? | ? | Site broken |
 | [softwaresuggest.com](softwaresuggest.com.md) | Free (sales-gated) | ? | ? | ? | Sales-only |
 | [stackshare.io](stackshare.io.md) | Free | Google OAuth | bot-protection | ? | Pending review (human submit works) |
-| [startupbase.io](startupbase.io.md) | Free (upvote-gated) / Paid $39-99 | Google OAuth | no | ? | Needs a human: upvote/payment gate |
+| [startupbase.io](startupbase.io.md) | Free (upvote-gated) / Paid $39-99 | Google OAuth | no | ? | Pending review |
 | [startupranking.com](startupranking.com.md) | Free | Google/Facebook/LinkedIn/X OAuth | no | ? | Listed |
 | [superlaunch.dev](superlaunch.dev.md) | ? | ? | ? | ? | Site broken |
 | [thataicollection.com](thataicollection.com.md) | Paid $19+ | ? | ? | ? | Paid only |
